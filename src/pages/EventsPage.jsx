@@ -3,7 +3,7 @@ import EventSection from "../components/EventSection";
 function EventsPage({ events, onDeleteEvent }) {
     return (
         <>
-            <section>
+            <section className="page-heading">
                 <p className="section-label">
                     All Campus Activities
                 </p>
@@ -24,4 +24,3 @@ function EventsPage({ events, onDeleteEvent }) {
 }
 
 export default EventsPage;
-
